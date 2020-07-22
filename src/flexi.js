@@ -4,8 +4,7 @@ const Flexi = ({ onSubmitFn, config }) => {
   const [inputVal, setInputVal] = useState("");
   const [ddVal, setDdVal] = useState("");
 
-  useEffect(() => {
-  }, []);
+ 
 
   const changeHandler = e => {
     setInputVal(e.target.value);
